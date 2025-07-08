@@ -17,7 +17,7 @@ public class Homepage {
     @FindBy(xpath = "//a[@id='nav-hamburger-menu']")
     public WebElement hamBurger;
 
-    @FindBy(xpath = "//div[contains(text(),'shop by category')]")
+    @FindBy(xpath = "//div[contains(text(),'shop by category.')]")
     public WebElement shopBydepart;
 
     @FindBy(xpath = "//div[contains(text(),'TV, Appliances, Electronics')]")
